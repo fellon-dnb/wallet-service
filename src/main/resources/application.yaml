@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: wallet-service
+
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
