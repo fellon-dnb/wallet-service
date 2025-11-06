@@ -1,0 +1,51 @@
+#  Build artifacts
+target/
+build/
+out/
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+*.log
+*.class
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Environment & Configs
+.env
+*.local
+*.pid
+*.seed
+*.swp
+
+# STS / Eclipse
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Docker & Compose
+/docker-data/
+/docker-compose.override.yml
